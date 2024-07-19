@@ -20,21 +20,21 @@ function App() {
 
         <div className='nav'>
 
-          <NavLink className="Home" to="/" >Appointment</NavLink>
+          <NavLink className="Home" to="/reactapp" >Appointment</NavLink>
 
-          <NavLink className="Home" to="/doctor" >Doctor</NavLink>
+          <NavLink className="Home" to="/reactapp/doctor" >Doctor</NavLink>
 
-          <NavLink className="Home" to="/patients" >Patients</NavLink>
+          <NavLink className="Home" to="/reactapp/patients" >Patients</NavLink>
         </div>
       </div>
 
 
       <Routes>
 
-        <Route path="/" element={<Appointment />} />
+        <Route path="/reactapp" element={<Appointment />} />
 
-        <Route path="/doctor" element={<Doctor />} />
-        <Route path="/patients" element={<Patients />} />
+        <Route path="/reactapp/doctor" element={<Doctor />} />
+        <Route path="/reactapp/patients" element={<Patients />} />
       </Routes>
     </>
   )
