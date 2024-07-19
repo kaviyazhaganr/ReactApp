@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kaviyazhaganr.github.io/reactapp",
+  "homepage": "https://kaviyazhaganr.github.io/reactapp/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

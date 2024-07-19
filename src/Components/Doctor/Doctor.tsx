@@ -77,7 +77,7 @@ const Doctor = () => {
 
                 <div className='card-position-doctor'>
 
-                    <h2 style={{ textAlign: 'center', paddingBottom: '10px' }}>Appointment - {getdetails.length} </h2>
+                    <h2 style={{ textAlign: 'center', paddingBottom: '10px' }}>Doctor - {getdetails.length} </h2>
 
                     {
 
