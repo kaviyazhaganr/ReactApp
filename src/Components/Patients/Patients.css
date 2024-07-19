@@ -1,0 +1,52 @@
+
+.cont{
+
+    border:1px solid black ;
+    padding: 10px;
+  
+    display: flex;
+    justify-content: space-between;
+   
+    }
+  
+  .card-position{
+  
+    width: 500px;
+    /* border:1px solid red ; */
+    margin-right: 250px;
+  
+  }
+   
+   
+   .card{
+   
+       border:1px solid black ;
+   
+       
+       padding: 10px;
+       margin-left: 90px;
+       margin-bottom: 10px;
+      width: 300px;
+      /* top: -230px; */
+      /* left: 500px; */
+      
+      
+   }
+   
+   .btn-edit{
+       width: 90px;
+       border-radius: 10px;
+       background-color: rgb(33, 175, 222);
+   
+   }
+   
+   .btn-delete{
+   
+       width: 90px;
+       border-radius: 10px;
+       background-color: rgb(33, 175, 222);
+        margin-left: 190px;
+     margin-top: -30px;
+   }
+   
+   

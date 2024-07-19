@@ -1,0 +1,22 @@
+.contt{
+  border: 1px solid black;
+}
+
+.nav{
+
+  margin-block: 20px;
+
+  /* border: 1px solid red; */
+  padding-block: 10px;
+  border-radius:15px;
+  background-color: lightgreen;
+  width: auto;
+ 
+}
+
+.Home{
+
+  text-decoration: none;
+  margin-inline: 40px;
+  color: black;
+}
